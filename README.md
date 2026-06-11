@@ -11,8 +11,17 @@ A desktop tool that automates copying K-Lightshow show files (.mp3, .fseq) onto 
 - **파일명에 좌표 추가 옵션**: 복사 시 파일 이름 뒤에 좌표를 붙일 수 있음 (예: `BTS_A04.mp3`)
 - **USB 볼륨 이름 자동 변경**: USB 드라이브 이름을 좌표명으로 자동 변경
 - **자동 안전 제거**: 복사 완료 후 USB를 자동으로 안전하게 제거
-- **다중 PC 동기화**: 같은 네트워크의 여러 PC에서 동시 작업 시, 완료된 좌표를 UDP 브로드캐스트(포트 45454)로 실시간 공유 — 완료된 좌표는 모든 PC에서 초록색으로 표시
+- **다중 PC 동기화**: 여러 PC가 **같은 와이파이(네트워크)에 연결되어 있으면** 진행 상황이 자동으로 공유됩니다. 한 PC에서 좌표 복사가 완료되면 UDP 브로드캐스트(포트 45454)로 알려서, 다른 PC에서도 해당 좌표가 초록색(동기화됨)으로 표시됩니다. 별도 설정 없이 동작하며, Windows와 macOS 간에도 공유됩니다.
 - **진행 상태 표시**: 좌표별 상태를 색상으로 표시 (흰색: 대기, 노란색: 진행 중, 초록색: 완료, 빨간색: 실패)
+
+## 다운로드
+
+[Releases](https://github.com/jangcuber/K-LightShow-USB-Automator/releases) 페이지에서 빌드된 프로그램을 받을 수 있습니다.
+
+- **Windows**: `K-LightShow_USB_Manager.exe`
+- **macOS**: `K-LightShow_USB_Manager_Mac.zip` (압축 해제 후 `.app` 실행, Apple Silicon 기준)
+
+> macOS에서 "확인되지 않은 개발자" 경고가 뜨면, 앱을 우클릭 → 열기로 실행하세요.
 
 ## 소스 폴더 구조
 

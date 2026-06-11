@@ -4,6 +4,11 @@ K-Lightshow 공연용 USB에 쇼 파일(.mp3, .fseq)을 좌표별로 자동 복�
 
 A desktop tool that automates copying K-Lightshow show files (.mp3, .fseq) onto USB drives by seat coordinate. Supports both Windows and macOS.
 
+## 관련 링크
+
+- K-LightShow 공식 홈페이지: <https://www.k-lightshow.com/>
+- K-LightShow 쇼 파일 제작 사이트: <https://klightshow.pages.dev/>
+
 ## 주요 기능
 
 - **좌표 기반 복사**: A04~J63 좌표 버튼 그리드 또는 키보드 입력(`a4`, `A04` 등)으로 대상 좌표 선택

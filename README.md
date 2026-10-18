@@ -9,6 +9,12 @@ A desktop tool that automates copying K-Lightshow show files (.mp3, .fseq) onto 
 - K-LightShow 공식 홈페이지: <https://www.k-lightshow.com/>
 - K-LightShow 쇼 파일 제작 사이트: <https://klightshow.pages.dev/>
 
+## 쇼 파일 자동 생성 MCP (`klightshow-mcp/`)
+
+음악 파일 하나만 주면 AI(Claude 등)가 MCP로 Tesla 라이트쇼 파일 전체를 만들어 줍니다. 곡을 분석(템포, 비트, 마디, 구간)해서 자동으로 안무를 짜고, 주차장 격자의 차마다 다른 `.fseq`를 만든 뒤 Tesla 규칙으로 검증합니다. 이미지 모양을 곡 중간에 주차장 전체로 띄우거나, 렌더링 그림으로 미리 볼 수도 있습니다.
+
+`layout="automator"`로 내보내면 이 프로그램의 소스 폴더 구조(루트 mp3 + 좌표 폴더별 fseq)로 바로 나옵니다. 설치와 사용법은 [klightshow-mcp/README.md](klightshow-mcp/README.md)를 보세요.
+
 ## 주요 기능
 
 - **좌표 기반 복사**: A04~J63 좌표 버튼 그리드 또는 키보드 입력(`a4`, `A04` 등)으로 대상 좌표 선택
